@@ -35,17 +35,20 @@ header a {
 header nav {
     margin: 7px 0;
 }
-
-/* apply styles to the <nav> element's <li> elements */
-header nav ul li {
-    display: inline;
+/* apply styles to the <nav> element's <ul> elements */
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 /* apple styles to the <a> elements inside of the <li> elements */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 footer {
